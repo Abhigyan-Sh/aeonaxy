@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'crimson': ['Crimson Text', 'serif'], 
+        'lexend': ['Lexend', 'sans-serif'],
+      }, 
+    },
   },
   plugins: [],
 }

@@ -1,10 +1,23 @@
-import DemoComponent from "./DemoComponent";
-
+import { 
+  AboutUs, 
+  HeroSection, 
+  LearnMore, 
+  MemberShipPlans, 
+  Navbar, 
+  Service, 
+  TestimonialSection 
+} from "./components/sections/index";
 
 function App() {
   return (
     <div>
-   <DemoComponent />
+      <Navbar />
+      <HeroSection />
+      <AboutUs />
+      <TestimonialSection />
+      <Service />
+      <MemberShipPlans />
+      <LearnMore />
     </div>
   );
 }
