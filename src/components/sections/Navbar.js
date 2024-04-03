@@ -37,7 +37,7 @@ const Navbar = () => {
     <div className='flex justify-between items-center py-0 sm:py-2 md:py-4 px-4 border-y-[2px] border-black'>
       <div className=''>
         <img 
-          src={windowWidth >= 768 ? './logo.png' : './logoMobile.png'} 
+          src={windowWidth >= 768 ? './homepage/logo.png' : './homepage/logoMobile.png'} 
           alt='logo' 
           width={windowWidth >= 768 ? 205 : 50} 
         />

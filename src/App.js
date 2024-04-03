@@ -6,6 +6,7 @@ import {
   Navbar, 
   Service, 
   TestimonialSection 
+// } from "@components/sections/index";
 } from "./components/sections/index";
 
 function App() {

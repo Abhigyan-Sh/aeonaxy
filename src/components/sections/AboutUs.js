@@ -13,7 +13,7 @@ const AboutUs = () => {
       </div>
       <div className='w-full py-4 lg:py-0 lg:w-3/6 flex flex-row items-center justify-center'>
         <img 
-          src='./globe.png' 
+          src='./homepage/globe.png' 
           alt='globe' 
           height="550" 
           width="550" />

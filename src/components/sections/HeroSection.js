@@ -1,12 +1,13 @@
 import React from 'react'
+import Heading from '../elements/Heading'
 
 const HeroSection = () => {
   return (
     <div className='border-b-[2px] border-black flex justify-center items-center mx-auto h-[120px] sm:h-[400px] md:h-[345px]'>
-      <p className='text-3xl sm:text-5xl md:text-6xl lg:text-[90px] xl:text-[115px] text-bold inline font-crimson'>
+      <Heading className='text-bold inline text-center leading-9 sm:text-start sm:leading-none'>
         Every idea needs a 
         <span className='font-crimson font-black'> Medium.</span>
-      </p>
+      </Heading>
     </div>
   )
 }
